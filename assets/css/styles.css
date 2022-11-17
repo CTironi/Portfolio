@@ -152,3 +152,39 @@ p {
 }
 
 
+/* seccion contacto */
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+  padding: 2em;
+  background-color: aqua;
+}
+
+.contacto_titulo {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #111135;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.contacto_links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin-top: 20px;
+  font-size: 35px;
+}
+
+
+
+
+
+
+
