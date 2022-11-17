@@ -9,14 +9,26 @@
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
+  font-weight: bold;
 }
+
 /* seccion inicio menu */
+
 .menu{
   width: 100%;
   height: 100%;
   background-color: #191c32;
   color: white;
 }
+
+.divheader{
+  background-color: #191c32;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0%;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -28,16 +40,115 @@ body {
   width: 50%;
   justify-content: space-around;
 }
+
 .botones a {
   color: white;
   text-decoration: none;
 }
+
 .botones li{
   list-style: none;
 }
+
 .botones a:hover{
   color: aqua;
 }
 
+
+/* seccion inicio bienvenida */
+
+.bienvenida {
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #191c32;
+}
+
+
+/* seccion sobre mi */
+
+.sobremi {
+  max-width: 1100px;
+  margin: auto;
+  padding: 100px 15px;
+  color: rgb(10, 3, 3);
+  display: flex;
+}
+
+.sobremi_titulo {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #111135;
+  text-decoration: underline;
+  text-decoration-color: #d3d3d3;
+  text-decoration-thickness: 8px;
+}
+
+.h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 80px 0;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 25px;
+  color: #565656;
+  margin-bottom: 12px;
+}
+
+
+/* seccion formacion */
+
+.formacion {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #cac4c486;
+}
+
+.formacion_titulo {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #111135;
+  text-decoration: underline;
+  text-decoration-color: #d3d3d3;
+  text-decoration-thickness: 8px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* seccion formacion galeria */
+.imgs{
+    display: inline-flex;
+    width: 260px;
+    height: 200px;
+    margin-top: 10px;
+    margin-Left: 5px;
+    margin-right: 5px;
+    border-radius: Spx;
+    overflow: hidden;
+    object-fit: cover;
+}
+.imgs img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease;
+}
+
+.imgs img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    filter: brightness(70%);
+}
 
 
